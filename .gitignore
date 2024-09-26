@@ -1,0 +1,26 @@
+# 忽略构建目录
+build/
+bin/
+obj/
+*.o
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# 忽略 Visual Studio 生成的文件
+.vs/
+*.vcxproj
+*.vcxproj.user
+*.sln
+
+# 忽略其他 IDE 生成的文件
+*.userprefs
+*.pdb
+*.ipch
+*.ipch/
+
+# 其他临时文件
+*.tmp
+*.log
